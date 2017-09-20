@@ -8,5 +8,6 @@ require.config({
     cookie : 'jquery-cookie/jquery.cookie',
     common : '../js/common',
     login : '../js/login',
+    template : 'artTemplate/template-web'
   }
 })
