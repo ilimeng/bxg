@@ -10,6 +10,8 @@ require.config({
     bootstrap : 'bootstrap/js/bootstrap.min',
     datepicker : 'bootstrap-datepicker/js/bootstrap-datepicker',
     language : 'bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min',
+    form : 'jquery-form/jquery.form',
+    validate : 'validate/jquery.validate',
     login : '../js/login',
     teachAdd : '../js/teachAdd',
     template : 'artTemplate/template-web',
@@ -22,6 +24,9 @@ require.config({
     },
     language : {
       deps : ['jquery','datepicker']
+    },
+    validate : {
+      deps : ['jquery']
     }
   }
 })
