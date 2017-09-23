@@ -1,4 +1,4 @@
-define(['jquery','template','cookie'],function($,template){	
+define(['jquery','template','cookie',],function($,template){	
 	// NProgress.start();
 	// NProgress.done();
 		$('.navs ul').prev('a').on('click', function () {
