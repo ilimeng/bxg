@@ -17,6 +17,7 @@ require.config({
     template : 'artTemplate/template-web',
     teacherList : '../js/teacherList',
     util : '../js/util',
+    settings : '../js/settings'
   },
   shim : {
     bootstrap : {
