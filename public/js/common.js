@@ -12,7 +12,6 @@ define(['jquery','template','cookie',],function($,template){
 			datatype : 'json',
 			success: function (data) {
 				if(data.code == 200){
-				
 				location.href = 'login'
 				}
 			}
