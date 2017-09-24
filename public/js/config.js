@@ -19,7 +19,8 @@ require.config({
     template : 'artTemplate/template-web',
     teacherList : '../js/teacherList',
     util : '../js/util',
-    settings : '../js/settings'
+    settings : '../js/settings',
+    region : 'jquery-region/jquery.region'
   },
   shim : {
     bootstrap : {
