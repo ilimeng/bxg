@@ -7,7 +7,6 @@ define(['jquery','template'],function($,template){
      if(data.code == 200){
        var html = template('courseListTpl',data)
       $("#courseListInfo").html(html)
-      console.log(data.result)
      }
     }
   })

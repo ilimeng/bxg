@@ -33,7 +33,7 @@
         </a>
         <ul class="list-unstyled">
           <li>
-            <a href="/course/add">
+            <a href="/course/add" id="aAdd">
               课程添加
             </a>
           </li>
@@ -84,6 +84,8 @@
 </div>
 <script>
  var l = document.querySelectorAll(".navs a[href='"+location.pathname+"']")[0];
- l.classList.add('active');
-l.parentElement.parentElement.style.display=('block')
+ if(l){
+  l.classList.add('active');
+  l.parentElement.parentElement.style.display=('block')
+ }
 </script>

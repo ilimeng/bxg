@@ -23,6 +23,8 @@ require.config({
     settings : '../js/settings',
     region : 'jquery-region/jquery.region',
     courselist : '../js/courseList',
+    courseAdd : '../js/courseAdd',
+    coursebasic :'../js/courseBasic'
   },
   shim : {
     bootstrap : {

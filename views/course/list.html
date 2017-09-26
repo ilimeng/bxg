@@ -6,6 +6,7 @@
     <?php include('./views/common/style.html') ?>
 </head>
 <body>
+    
     <!-- 侧边栏 -->
     <?php include('./views/common/aside.html') ?>
     <!-- 主体 -->
@@ -72,16 +73,14 @@
                 {{else}}
                 <img src="{{$value.cs_cover}}">
                 {{/if}}
-                
             </div>
             <div class="info">
-                <a href="javascript:;">{{$value.cs_name}}</a>
-                <ul class="list-unstyled">
+                <a href="/course/basic?flag=1&cs_id={{$value.cs_id}}">{{$value.cs_name}}</a>
+                <ul class="list-uns tyled">
                     <li>
                         <span>讲师：{{$value.tc_name}}</span>
                         <span>类别：{{$value.cg_name}}</span>
                     </li>
-                   
                 </ul>
             </div>
         </div>
